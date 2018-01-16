@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlowMap FLW_FLOWINDEX="12005" FLW_FLOWNAME="集体建设用地使用权首次登记"
+	FLW_FLOWTYPE="0" FLW_FLOWTIME="1" FLW_ONTIMETYPE="3D"
+	FLW_ACTALERTSTATE="0" FLW_WARNTIME="0">
+	<StarNode FLW_INDEX="1" FLW_NAME="开始" FLW_TYPE="0"
+		FLW_PICFILENAME="" FLW_ISPASS="0">
+		<CHUNK_BOUND X0="0" Y0="126" X1="36" Y1="162"></CHUNK_BOUND>
+	</StarNode>
+	<EndNode FLW_INDEX="2" FLW_NAME="结束" FLW_TYPE="1"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_ENDTYPE="0">
+		<CHUNK_BOUND X0="837" Y0="126" X1="873" Y1="162"></CHUNK_BOUND>
+	</EndNode>
+	<NormalNode FLW_INDEX="3" FLW_NAME="受理" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;4,0,提交,提交,FlowSend()()()('zdpa'),email_go.png,1001,1,1,0;12,0,提交,业务发送,flowsend(),email_go.png,1044,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,;10,0,补办,业务补办,flowmend(),table_row_insert.png,;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,;11,0,作废,流程作废,setZfBytab(),cross.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1002" FLW_SUBWAY="0"
+		FLW_ROLES="1001-0,493,494,497,460,1060,482,1223,791,797,799,1231,1230,787,788,775,789,776,779,780,781,783,1265,1264,1262,1261,915,1237,650,667,659,686,521,522,890,880,879,878,523,907,1079,903,906,905,1024,1021,1018,1019,1023,1020,583,580,1217,911,718,733,1215,1150,1151,1152,1153,1154,1155,1156,1157,1158,1159,1160,1161,1162,1163,1164,1165,1166,1167,1168,1169,1170,1171,1172,1173,1174,1175,1176,1177,1178,1179,1180,1136,1137,1138,1139,1140,1141,1142,1143,1144,1145,1146,1147,1148,1149,586,883,602,1218,627,622,620,618,614,612,610,608,606,604,625,624,495,496,1061,1062,498,499,500,501,502,1064,679,676,699,700,1221,1222,760,761,755,575,569,563,561,573,587,909,934,944,943,942,941,940,939,938,937,936,945,935,1130,1131,1132,1133,503,504,505,1040,1044,1047,1067,1054,1053,1051,1050,514,677,673,709,1181,706,704,703,680,678,714,594,599,596,827,829,831,834,837,836,839,842,841,843,623,626,617,595,528,1184,615,607,802,811,1186,818,1191,639,645,631,643,637,562,556,565,564,559,770,772,771,752,719,746,744,721,724,725,727,728,731,735,534,537,538,540,539,544,543,530,666,668,649,663,669,632,636,634,671"
+		FLW_FORMS="A1,,11607,,;1,,11020,,;1,,11019,,;1,,11046,,;1,,11762,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="2H"
+		FLW_NODEACTALERTSTATE="1H" FLW_NODEWARNTIME="1H" FLW_CMD="">
+		<CHUNK_BOUND X0="72" Y0="126" X1="108" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="6" FLW_NAME="登簿" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,登簿,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1006" FLW_SUBWAY="0"
+		FLW_ROLES="1006-0,913,917,920,1075,1076,1060,1040,1041,1043,1044,1067,1047,1059,1058,1057,1056,1055"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11116,-1,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="0D"
+		FLW_NODEACTALERTSTATE="0D" FLW_NODEWARNTIME="0D" FLW_CMD="">
+		<CHUNK_BOUND X0="513" Y0="126" X1="549" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="7" FLW_NAME="缮证" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1007" FLW_SUBWAY="0"
+		FLW_ROLES="1007-0,1060,1040,1044,1047,1067,1081,1094,1093,1092,1091,1090,1089,1088,1087,1086,1085,1084,1083,1082,1068,1069,1070,1071,1072,1073,1074,689"
+		FLW_FORMS="A1,,11019,,;1,,12008,-1,;1,,11116,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="1D"
+		FLW_NODEACTALERTSTATE="0D" FLW_NODEWARNTIME="1D" FLW_CMD="">
+		<CHUNK_BOUND X0="612" Y0="126" X1="648" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="12" FLW_NAME="发证" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1014" FLW_SUBWAY="0"
+		FLW_ROLES="1011-0,1040,1044,1047,1067,1054,1053,1051,1050,1060,1095,1096,1097,1098,1099,1100,1101,1102,1103,1104,1105,1106,1107,1108,1109,1110,873,689,1068,1069,1070,1071,1072,1073,1074"
+		FLW_FORMS="A1,,11020,,;1,,11033,-1,;1,,11019,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="0D"
+		FLW_NODEACTALERTSTATE="0D" FLW_NODEWARNTIME="0D" FLW_CMD="">
+		<CHUNK_BOUND X0="720" Y0="126" X1="756" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="4" FLW_NAME="初审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,流程保存,flowsave(-1),disk_multiple.png,-1,1,1,0;3,0,全部保存,业务保存,flowsave(),email_go.png,;4,0,提交,业务提交,flowsend(),email_start.png,-1,1,1,0;7,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;5,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,关闭,关闭,close(),cancel.png,;11,0,同级转发,,FlowSend_Tjsend(),record_blue.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1003" FLW_SUBWAY="0"
+		FLW_ROLES="1002-0,1263,1262,1261,692,691,686,685,852,856,698,697,695,900,899,895,893,891,886,885,882,881,877,876,875,524,904,894,889,888,908,1024,1018,1019,1023,1028,1044,1121,1122,1123,1124,1125,1126,1128,1134,1113,1114,1115,1116,1118,1119,1120,924,920,872,910,912,918,919,915,1080,874,914,913,1040,1067"
+		FLW_FORMS="A1,,11020,,;1,,11607,-1,;1,,11019,,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="10D"
+		FLW_NODEACTALERTSTATE="5D" FLW_NODEWARNTIME="2D" FLW_CMD="">
+		<CHUNK_BOUND X0="171" Y0="126" X1="207" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="8" FLW_NAME="复审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;3,0,全部保存,业务保存,flowsave(),email_go.png,;4,0,提交,业务提交,flowsend(),email_start.png,-1,1,1,0;7,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;5,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,关闭,关闭,close(),cancel.png,;11,0,同级转发,,FlowSend_Tjsend(),record_blue.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1004" FLW_SUBWAY="0"
+		FLW_ROLES="1003-0,1111,1112,913,1059,694,690,687,684,683,682,517,902,901,897,896,892,884,894,889,888,883,908,1022,1021,1020,1040,1044,1047,1067,920,917,519,1117,1127,1129,1135"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,-1,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="5D"
+		FLW_NODEACTALERTSTATE="3D" FLW_NODEWARNTIME="1D" FLW_CMD="">
+		<CHUNK_BOUND X0="279" Y0="126" X1="315" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="10" FLW_NAME="核定" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,流程保存,flowsave(-1),disk_multiple.png,-1,1,1,0;3,0,全部保存,业务保存,flowsave(),email_go.png,;4,0,提交,业务提交,flowsend(),email_start.png,-1,1,1,0;7,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;5,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,;10,0,关闭,关闭,close(),cancel.png,;11,0,同级转发,,FlowSend_Tjsend(),record_blue.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1005" FLW_SUBWAY="0"
+		FLW_ROLES="1004-0,917,913,920,1075,1076,1077,1078,1060,1041,1043,1058,1057,1056,1059,1055"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,-1,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="1D"
+		FLW_NODEACTALERTSTATE="0D" FLW_NODEWARNTIME="1D" FLW_CMD="">
+		<CHUNK_BOUND X0="387" Y0="126" X1="423" Y1="162"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="9" FLW_NAME="初审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1003" FLW_SUBWAY="0"
+		FLW_ROLES="1075-0,1220,762,743,765,749,676,679,699,700,1221,1222,708,797,799,784,1232,787,789,776,779,780,781,783,1236,1233,1238,1237,650,659,667,665,661,654,570,580,573,540,666,668,649,663,669,632,634,671,636,718,738,628,622,620,618,625,624,1219,581,566,563,561,810,802,811,818,605,615,623,607,528,807,826,821,817,805,800,591,1182,600,598,922,677,1181,709,704,680,678,714,1191,639,645,643,631,637,553,554,555,771,772,769,773,721,724,534,538,539"
+		FLW_FORMS="A1,,11020,,;1,,11607,-1,;1,,11019,,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="171" Y0="189" X1="207" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="18" FLW_NAME="复审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1004" FLW_SUBWAY="0"
+		FLW_ROLES="1076-0,681,1221,763,766,1229,778,784,1232,787,789,776,779,780,781,1237,1238,740,715,665,661,654,572,570,580,577,571,1219,581,566,563,561,573,768,773,734,1216,722,724,534,538,539,540,531,1204,644,649,668,663,632,669,636,671,708,628,620,622,625,677,1181,709,704,680,678,716,714,591,1182,600,598,922,817,830,613,611,605,595,810,1191,639,645,631,643,637,551,553,554,555"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,-1,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="225" Y0="189" X1="261" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="19" FLW_NAME="核定" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1005" FLW_SUBWAY="0"
+		FLW_ROLES="1083-0,681,1221,764,766,763,1229,778,784,1232,658,572,570,577,571,715,740,1204,644,532,734,1216,1188,768,603,628,804,1185,613,611,1183,813,589,590,710,712,547,1198,635,633"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,-1,;1,,11912,,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="288" Y0="189" X1="324" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="22" FLW_NAME="镇区送件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1030" FLW_SUBWAY="0"
+		FLW_ROLES="1077-0,1222,1221,676,679,681,1220,762,1229,778,784,1232,787,789,776,779,780,781,783,1237,664,665,580,585,1219,581,566,563,561,573,708,768,769,773,771,750,722,729,534,538,539,540,666,668,649,671,634,1218,620,622,618,614,608,625,624,673,591,1182,922,600,598,807,827,831,836,842,817,800,808,605,607,619,615,810,820,818,1191,639,645,631,643,637,557,567,554"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="351" Y0="189" X1="387" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="23" FLW_NAME="市局收件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1031" FLW_SUBWAY="0"
+		FLW_ROLES="1087-0,694,693,690,687,684,683,682,517,1075,1077"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="414" Y0="189" X1="450" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="24" FLW_NAME="镇区初审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1027" FLW_SUBWAY="0"
+		FLW_ROLES="1075-0,1220,762,743,765,749,676,679,699,700,1221,1222,708,797,799,784,1232,787,789,776,779,780,781,783,1236,1233,1238,1237,650,659,667,665,661,654,570,580,573,540,666,668,649,663,669,632,634,671,636,718,738,628,622,620,618,625,624,1219,581,566,563,561,810,802,811,818,605,615,623,607,528,807,826,821,817,805,800,591,1182,600,598,922,677,1181,709,704,680,678,714,1191,639,645,643,631,637,553,554,555,771,772,769,773,721,724,534,538,539"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;1,,11762,,;1,,13923,-1,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME="10D"
+		FLW_NODEACTALERTSTATE="5D" FLW_NODEWARNTIME="2D" FLW_CMD="">
+		<CHUNK_BOUND X0="171" Y0="54" X1="207" Y1="90"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="25" FLW_NAME="镇区复审" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1029" FLW_SUBWAY="0"
+		FLW_ROLES="1076-0,681,1221,763,766,1229,778,784,1232,787,789,776,779,780,781,1237,1238,740,715,665,661,654,572,570,580,577,571,1219,581,566,563,561,573,768,773,734,1216,722,724,534,538,539,540,531,1204,644,649,668,663,632,669,636,671,708,628,620,622,625,677,1181,709,704,680,678,716,714,591,1182,600,598,922,817,830,613,611,605,595,810,1191,639,645,631,643,637,551,553,554,555"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;1,,11762,,;1,,13923,-1,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="261" Y0="54" X1="297" Y1="90"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="34" FLW_NAME="镇区送件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1030" FLW_SUBWAY="0"
+		FLW_ROLES="1077-0,1222,1221,676,679,681,1220,762,1229,778,784,1232,787,789,776,779,780,781,783,1237,664,665,580,585,1219,581,566,563,561,573,708,768,769,773,771,750,722,729,534,538,539,540,666,668,649,671,634,1218,620,622,618,614,608,625,624,673,591,1182,922,600,598,807,827,831,836,842,817,800,808,605,607,619,615,810,820,818,1191,639,645,631,643,637,557,567,554"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;1,,11762,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="360" Y0="54" X1="396" Y1="90"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="35" FLW_NAME="市局收件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1031" FLW_SUBWAY="0"
+		FLW_ROLES="1078-0,694,693,692,691,690,687,686,685,684,683,522,682,521,517,695,697,698,852,856"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;1,,11762,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="459" Y0="54" X1="495" Y1="90"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="21" FLW_NAME="市局发证" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1032" FLW_SUBWAY="0"
+		FLW_ROLES="1079-0,1068,1069,1070,1071,1072,1073,1074,689,1095,1096,1097,1098,1099,1100,1101,1102,1103,1104,1105,1106,1107,1108,1109,1110"
+		FLW_FORMS="A1,,11019,,;1,,12008,,;1,,11116,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="612" Y0="198" X1="648" Y1="234"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="40" FLW_NAME="镇区收证" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1033" FLW_SUBWAY="0"
+		FLW_ROLES="1080-0,563,561,573,676,679,681,1221,1222,700,699,1220,762,624,625,797,799,778,784,1232,787,789,776,779,780,781,783,1237,664,665,666,668,649,671,634,534,538,539,540,750,722,729,768,769,771,773,580,585,1219,566,708,603,628,622,620,608,673,591,1182,600,598,922,807,827,831,836,842,817,800,808,605,619,607,615,820,818,810,1191,639,645,631,643,637,557,567,554"
+		FLW_FORMS="A1,,11019,,;1,,12008,,;1,,11116,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="720" Y0="198" X1="756" Y1="234"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="43" FLW_NAME="镇区发证" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,;"
+		FLW_FLOWSTATE="1035" FLW_SUBWAY="0"
+		FLW_ROLES="1082-0,581,575,569,587,676,679,681,699,700,1221,1222,761,755,797,799,778,784,1232,787,788,775,789,776,779,780,781,783,1264,1265,733,1260,769,771,772,770,732,746,535,647,646,636,586,583,1217,713,1218,622,618,614,802,811,818,1186,617,626,1184,840,825,599,594,596,1181,680,1191,639,645,631,643,637,556,565"
+		FLW_FORMS="A1,,11020,,;1,,11033,-1,;1,,11019,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="837" Y0="198" X1="873" Y1="234"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="46" FLW_NAME="市局收件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,发送,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1031" FLW_SUBWAY="0" FLW_ROLES="1085-0,503,504"
+		FLW_FORMS="A1,,11607,,;1,,11020,,;1,,11046,,;1,,11762,,;1,,11019,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="549" Y0="54" X1="585" Y1="90"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="52" FLW_NAME="登簿" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,登簿,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,提交,业务发送,flowsend(),email_go.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1006" FLW_SUBWAY="0"
+		FLW_ROLES="1086-0,694,693,690,687,684,683,682,517,1075,1077"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11116,-1,;1,,11046,,;"
+		FLW_BRETURN="1" FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="540" Y0="189" X1="576" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalNode FLW_INDEX="31" FLW_NAME="市局收件" FLW_TYPE="2"
+		FLW_PICFILENAME="" FLW_ISPASS="0" FLW_BASENODELOGIC="0"
+		FLW_TOOLBAR="1,0,刷新,刷新当前表单,flowfresh(),table_refresh.png,-1,1,1,0;2,0,保存,保存当前表单,flowsave(-1),disk.png,-1,1,1,0;3,0,全部保存,流程保存,flowsave(),disk_multiple.png,-1,1,1,0;4,0,发送,业务发送,flowsend(),email_go.png,-1,1,1,0;5,0,直接发送,业务直接发送,flowsend()(1),email_start.png,-1,1,1,0;6,0,退回,业务退回,flowback(),arrow_rotate_clockwise.png,-1,1,1,0;7,0,补办,业务补办,flowmend(),table_row_insert.png,-1,1,1,0;8,0,流程图,查看流程图,flowquery(),arrow_switch_bluegreen.png,-1,1,1,0;9,0,打印,打印当前表单,flowprint(),printer.png,-1,1,1,0;10,0,返回,返回,historyback(),arrow_undo.png,-1,1,1,0;"
+		FLW_FLOWSTATE="1031" FLW_SUBWAY="0" FLW_ROLES="1085-0,503,504"
+		FLW_FORMS="A1,,11020,,;1,,11607,,;1,,11019,,;1,,11046,,;" FLW_BRETURN="1"
+		FLW_ENTRUST="0" FLW_NODETIME="1" FLW_NODEONTIME=""
+		FLW_NODEACTALERTSTATE="" FLW_NODEWARNTIME="" FLW_CMD="">
+		<CHUNK_BOUND X0="477" Y0="189" X1="513" Y1="225"></CHUNK_BOUND>
+	</NormalNode>
+	<NormalSend FLW_INDEX="13" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1007" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="6" FLW_ENDNODE="7" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="549" Y="144"></Coor>
+			<Coor X="612" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="5" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1011" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select sd_keyno from oa2_sysdic where sd_class='279' and sd_main!='0']==1"
+		FLW_STARNODE="12" FLW_ENDNODE="2" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="756" Y="144"></Coor>
+			<Coor X="837" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="15" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1004" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select szpz from bdc_hjpz where djlx=(select djlx from bdc_rec where slid=[$ INSTANCE])]!=1"
+		FLW_STARNODE="4" FLW_ENDNODE="8" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="207" Y="144"></Coor>
+			<Coor X="279" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="16" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1005" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select szpz from bdc_hjpz where djlx=(select djlx from bdc_rec where slid=[$ INSTANCE])]!=2"
+		FLW_STARNODE="8" FLW_ENDNODE="10" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="297" Y="144"></Coor>
+			<Coor X="387" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="17" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1006" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="10" FLW_ENDNODE="6" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="405" Y="144"></Coor>
+			<Coor X="513" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="14" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1014" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select case when sldw=1 or sldw=2 then 1 else 0 end from bdc_rec where slid=[$ INSTANCE]]==0"
+		FLW_STARNODE="7" FLW_ENDNODE="12" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="630" Y="144"></Coor>
+			<Coor X="720" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="11" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1002" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="1" FLW_ENDNODE="3" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="18" Y="144"></Coor>
+			<Coor X="72" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="26" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1003" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select sldw from bdc_rec where SLID=[$ INSTANCE]]==1"
+		FLW_STARNODE="3" FLW_ENDNODE="9" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="90" Y="144"></Coor>
+			<Coor X="171" Y="189"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="27" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1004" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="9" FLW_ENDNODE="18" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="189" Y="207"></Coor>
+			<Coor X="225" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="28" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1005" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="18" FLW_ENDNODE="19" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="261" Y="207"></Coor>
+			<Coor X="288" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="29" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1030" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="19" FLW_ENDNODE="22" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="324" Y="207"></Coor>
+			<Coor X="351" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="30" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1031" FLW_FLOWWAY="" FLW_DP="0" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select SLKS from BDC_REC where SLID=[$ INSTANCE]]==20"
+		FLW_STARNODE="22" FLW_ENDNODE="23" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="387" Y="207"></Coor>
+			<Coor X="414" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="33" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1029" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="24" FLW_ENDNODE="25" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="189" Y="72"></Coor>
+			<Coor X="261" Y="72"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="32" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1027" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select sldw from bdc_rec where SLID=[$ INSTANCE]]==2"
+		FLW_STARNODE="3" FLW_ENDNODE="24" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="90" Y="144"></Coor>
+			<Coor X="171" Y="90"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="36" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1031" FLW_FLOWWAY="" FLW_DP="0" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select SLKS from BDC_REC where SLID=[$ INSTANCE]]==20"
+		FLW_STARNODE="34" FLW_ENDNODE="35" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="378" Y="72"></Coor>
+			<Coor X="459" Y="72"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="37" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1030" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="25" FLW_ENDNODE="34" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="279" Y="72"></Coor>
+			<Coor X="360" Y="72"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="38" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1003" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select sldw from bdc_rec where SLID=[$ INSTANCE]]==0"
+		FLW_STARNODE="3" FLW_ENDNODE="4" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="90" Y="144"></Coor>
+			<Coor X="171" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="20" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1003" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="35" FLW_ENDNODE="4" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="459" Y="76"></Coor>
+			<Coor X="207" Y="126"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="39" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1032" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select case when sldw=1 or sldw=2 then 1 else 0 end from bdc_rec where slid=[$ INSTANCE]]==1"
+		FLW_STARNODE="7" FLW_ENDNODE="21" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="630" Y="144"></Coor>
+			<Coor X="630" Y="198"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="42" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1035" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="40" FLW_ENDNODE="43" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="738" Y="216"></Coor>
+			<Coor X="837" Y="216"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="44" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1011" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="43" FLW_ENDNODE="2" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="855" Y="216"></Coor>
+			<Coor X="855" Y="162"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="41" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1033" FLW_FLOWWAY="" FLW_DP="0" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="21" FLW_ENDNODE="40" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="630" Y="216"></Coor>
+			<Coor X="720" Y="216"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="45" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1011" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select SFZF from bdc_rec where SLID=[$ INSTANCE]] ==1"
+		FLW_STARNODE="3" FLW_ENDNODE="2" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="90" Y="144"></Coor>
+			<Coor X="837" Y="144"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="47" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1031" FLW_FLOWWAY="" FLW_DP="0" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select SLKS from BDC_REC where SLID=[$ INSTANCE]]==15"
+		FLW_STARNODE="34" FLW_ENDNODE="46" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="378" Y="72"></Coor>
+			<Coor X="549" Y="72"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="51" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1003" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="46" FLW_ENDNODE="4" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="567" Y="72"></Coor>
+			<Coor X="207" Y="126"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="50" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1007" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="52" FLW_ENDNODE="7" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="558" Y="207"></Coor>
+			<Coor X="612" Y="162"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="48" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1031" FLW_FLOWWAY="" FLW_DP="" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="[# select SLKS from BDC_REC where SLID=[$ INSTANCE]]==15"
+		FLW_STARNODE="22" FLW_ENDNODE="31" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="369" Y="207"></Coor>
+			<Coor X="477" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="49" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1006" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="23" FLW_ENDNODE="52" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="432" Y="207"></Coor>
+			<Coor X="540" Y="207"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+	<NormalSend FLW_INDEX="53" FLW_NAME="" FLW_TYPE="6"
+		FLW_FLOWSTATE="1006" FLW_FLOWWAY="" FLW_DP="1" FLW_MUSTPASS=""
+		FLW_COUNTFILTER="" FLW_STARNODE="31" FLW_ENDNODE="6" FLW_ISPASS="0">
+		<CHUNK_BOUND CHUNKNUM="2">
+			<Coor X="495" Y="207"></Coor>
+			<Coor X="513" Y="162"></Coor>
+		</CHUNK_BOUND>
+	</NormalSend>
+</FlowMap>

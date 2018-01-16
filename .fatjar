@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat May 06 16:15:18 CST 2017
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=httpClient_fat.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|httpClient>~ylf/~Test.class;<po|httpClient>~Test.class;<jar|commons-io-1.1.jar>;<jar|httpclient-4.5.jar>;<jar|httpcore-4.4.1.jar>;<jar|commons-logging-1.2.jar>
+includes=
